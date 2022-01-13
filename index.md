@@ -3,7 +3,7 @@ _This is a_ **Github Website**
 # Spiderman
 ## OR.. peter parker
 
-[Spiderman Wikipedia] (https://en.wikipedia.org/wiki/Spider-Man)
+[Spiderman Wikipedia](https://en.wikipedia.org/wiki/Spider-Man)
 
 ![Image](https://bgr.com/wp-content/uploads/2021/11/spider-man-poster-green-goblin.jpg?quality=82&strip=all&w=1382&h=810&crop=1)
 
