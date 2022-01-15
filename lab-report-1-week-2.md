@@ -1,24 +1,19 @@
-# Week # 2 Lab Report
+# Week # 2 - Lab Report
 
 This a tutorial for incoming 15L students about how to log into a course-specific account on ieng6.
 
-## Step # 1 Installing VScode.
+## Step # 1 - Installing VScode.
 
 ![](SS1.png)
 
 First things first. We will need to install VScode from [here.](https://code.visualstudio.com/). Pick your operating system, download and then follow instructions on screen.
 
 After installation it should look like this.
-
 ![](this one.png)
 
-## Step # 2 Remotely Connecting.
+## Step # 2 - Remotely Connecting.
 
-Next up, you will need to look up your account info [here.](https://sdacs.ucsd.edu/~icc/index.php)
-
-Then you will need to open a new terminal through the "terminal menu".
-
-Now type in the following command in the terminal using YOUR account info:
+Next up, you will need to look up your account info [here.](https://sdacs.ucsd.edu/~icc/index.php) Then you will need to open a new terminal through the "terminal menu". Now type in the following command in the terminal using YOUR account info:
 
 `ssh cs15lwi22zz@ieng6.ucsd.edu`
 
@@ -26,7 +21,7 @@ Type in __yes__ to proceed.
 
 ![](SS2.png)
 
-## Step # 3 Trying Some Commands
+## Step # 3 - Trying Some Commands
 
 Lets try some commands.
 Try:
@@ -59,10 +54,9 @@ Try some more commands:
 
 `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
 
-
 ![](SS3.png)
 
-## Step # 4 Moving Files with scp
+## Step # 4 - Moving Files with scp
 
 Now lets move files from your local machine to the remote server.
 
@@ -72,7 +66,7 @@ Create a file on your local machine and then type
 
 ![](SS4.png)
 
-## Step # 5 Setting an SSH Key
+## Step # 5 - Setting an SSH Key
 
 There is a way you can login to your remote server everytime without using your password.
 
@@ -118,7 +112,7 @@ $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
 Now you should be able to login without password.
 
-## Final Step Optimizing Remote Running
+## Final Step - Optimizing Remote Running
 
 Here are some tips to help you better use this interface.
 
