@@ -41,7 +41,7 @@ Try:
 
 `cp`
 
-* If you don't know a command. Don't try it.
+> If you don't know a command. Don't try it.
 
 Try some more commands:
 
@@ -122,18 +122,17 @@ Now you should be able to login without password.
 
 Here are some tips to help you better use this interface.
 
-
-1. You can write a command in quotes at the end of an ssh command to directly run it on the remote server, then exit. For example, this command will log in and list the home directory on the remote server:
+* You can write a command in quotes at the end of an ssh command to directly run it on the remote server, then exit. For example, this command will log in and list the home directory on the remote server:
 
 `$ ssh cs15lwi22@ieng6.ucsd.edu "ls"`
 
-2. You can use semicolons to run multiple commands on the same line in most terminals. For example, try:
+* You can use semicolons to run multiple commands on the same line in most terminals. For example, try:
 
 `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
-3. You can use the up-arrow on your keyboard to recall the last command that was run
+* You can use the up-arrow on your keyboard to recall the last command that was run
 
-4. You can use 'ls -a' command to view even the hidden files.
+* You can use 'ls -a' command to view even the hidden files.
 ![](SS5.png)
 
 
