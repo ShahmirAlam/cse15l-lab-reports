@@ -1,18 +1,18 @@
-![](this one.png)
+# Week # 2 Lab Report
 
-# Week 2 Lab Report
+This a tutorial for incoming 15L students about how to log into a course-specific account on ieng6.
 
-In this week I will show
+## Step # 1 Installing VScode.
 
-## Step # 1-Download and Install VS-Code.
+![](SS1.png)
 
 First things first. We will need to install VScode from [here.](https://code.visualstudio.com/). Pick your operating system, download and then follow instructions on screen.
 
 After installation it should look like this.
-![](SS1.png)
 
+![](this one.png)
 
-## Step # 2-Remotely Connecting.
+## Step # 2 Remotely Connecting.
 
 Next up, you will need to look up your account info [here.](https://sdacs.ucsd.edu/~icc/index.php)
 
@@ -26,14 +26,19 @@ Type in __yes__ to proceed.
 
 ![](SS2.png)
 
-## Step # 3-Trying Some Commands
+## Step # 3 Trying Some Commands
 
 Lets try some commands.
 Try:
+
 `cd` 
+
 `ls`
+
 `pwd`
+
 `mkdir`
+
 `cp`
 
 * If you don't know a command. Don't try it.
@@ -41,25 +46,33 @@ Try:
 Try some more commands:
 
 `cd ~`
+
 `cd`
+
 `ls -lat`
+
 `ls -a`
+
 `ls <directory> where <directory> is /home/linux/ieng6/cs15lwi22/cs15lwi22abc`, where the `abc` is one of the other group members’ username
+
 `cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/`
+
 `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
 
 
 ![](SS3.png)
 
-## Step # 4-Moving Files with scp
+## Step # 4 Moving Files with scp
 
 Now lets move files from your local machine to the remote server.
 
-Create a file on your local machine and then type `scp <filename> cs15lwi22zz@ieng6.ucsd.edu:~/` in the terminal from your local machine.
+Create a file on your local machine and then type
+ `scp <filename> cs15lwi22zz@ieng6.ucsd.edu:~/`
+  in the terminal from your local machine.
 
 ![](SS4.png)
 
-## Step # 5-Setting an SSH Key
+## Step # 5 Setting an SSH Key
 
 There is a way you can login to your remote server everytime without using your password.
 
@@ -105,15 +118,19 @@ $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
 Now you should be able to login without password.
 
-## Step # 6-Optimizing Remote Running
+## Final Step Optimizing Remote Running
 
 Here are some tips to help you better use this interface.
 
 
 1. You can write a command in quotes at the end of an ssh command to directly run it on the remote server, then exit. For example, this command will log in and list the home directory on the remote server:
+
 `$ ssh cs15lwi22@ieng6.ucsd.edu "ls"`
+
 2. You can use semicolons to run multiple commands on the same line in most terminals. For example, try:
+
 `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
+
 3. You can use the up-arrow on your keyboard to recall the last command that was run
 
 Lastly, If you didn’t get everything to work, that’s OK! There are multiple resourses on the internet for you get help from so keep TRYING!
