@@ -133,4 +133,8 @@ Here are some tips to help you better use this interface.
 
 3. You can use the up-arrow on your keyboard to recall the last command that was run
 
+4. You can use 'ls -a' command to view even the hidden files.
+![](SS5.png)
+
+
 Lastly, If you didn’t get everything to work, that’s OK! There are multiple resourses on the internet for you get help from so keep TRYING!
