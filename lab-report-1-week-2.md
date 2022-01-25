@@ -40,19 +40,20 @@ Try:
 
 Try some more commands:
 
-```cd ~```
+```
+cd ~
 
-```cd```
+cd
 
-```ls -lat```
+ls -lat
 
-```ls -a```
+ls -a```
 
-```ls <directory> where <directory> is /home/linux/ieng6/cs15lwi22/cs15lwi22abc```, where the ```abc``` is one of the other group members’ username
+ls <directory> where <directory> is /home/linux/ieng6/cs15lwi22/cs15lwi22abc, where the `abc` is one of the other group members’ username
 
-```cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/```
+cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/
 
-```cat /home/linux/ieng6/cs15lwi22/public/hello.txt```
+cat /home/linux/ieng6/cs15lwi22/public/hello.txt```
 
 ![](SS3.png)
 
@@ -61,7 +62,7 @@ Try some more commands:
 Now lets move files from your local machine to the remote server.
 
 Create a file on your local machine and then type
-```scp <filename> cs15lwi22zz@ieng6.ucsd.edu:~/```
+`scp <filename> cs15lwi22zz@ieng6.ucsd.edu:~/`
   in the terminal from your local machine.
 
 ![](SS4.png)
