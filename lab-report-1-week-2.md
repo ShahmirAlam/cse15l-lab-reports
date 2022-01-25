@@ -6,7 +6,7 @@ This a tutorial for incoming 15L students about how to log into a course-specifi
 
 ![](SS1.png)
 
-First things first. We will need to install VScode from [here.](https://code.visualstudio.com/). Pick your operating system, download and then follow instructions on screen.
+First things first. We will need to install VScode from [here.](https://code.visualstudio.com/) Pick your operating system, download and then follow instructions on screen.
 
 After installation it should look like this.
 ![](this one.png)
@@ -26,15 +26,17 @@ Type in __yes__ to proceed.
 Lets try some commands.
 Try:
 
-```cd```
+```
+cd
 
-```ls```
+ls
 
-```pwd```
+pwd
 
-```mkdir```
+mkdir
 
-```cp```
+cp
+```
 
 > If you don't know a command. Don't try it.
 
@@ -47,13 +49,14 @@ cd
 
 ls -lat
 
-ls -a```
+ls -a
 
 ls <directory> where <directory> is /home/linux/ieng6/cs15lwi22/cs15lwi22abc, where the `abc` is one of the other group members’ username
 
 cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/
 
-cat /home/linux/ieng6/cs15lwi22/public/hello.txt```
+cat /home/linux/ieng6/cs15lwi22/public/hello.txt
+```
 
 ![](SS3.png)
 
