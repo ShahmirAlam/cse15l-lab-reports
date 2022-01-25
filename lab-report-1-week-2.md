@@ -15,7 +15,7 @@ After installation it should look like this.
 
 Next up, you will need to look up your account info [here.](https://sdacs.ucsd.edu/~icc/index.php) Then you will need to open a new terminal through the "terminal menu". Now type in the following command in the terminal using YOUR account info:
 
-`ssh cs15lwi22zz@ieng6.ucsd.edu`
+```ssh cs15lwi22zz@ieng6.ucsd.edu```
 
 Type in __yes__ to proceed.
 
@@ -26,33 +26,33 @@ Type in __yes__ to proceed.
 Lets try some commands.
 Try:
 
-`cd` 
+```cd```
 
-`ls`
+```ls```
 
-`pwd`
+```pwd```
 
-`mkdir`
+```mkdir```
 
-`cp`
+```cp```
 
 > If you don't know a command. Don't try it.
 
 Try some more commands:
 
-`cd ~`
+```cd ~```
 
-`cd`
+```cd```
 
-`ls -lat`
+```ls -lat```
 
-`ls -a`
+```ls -a```
 
-`ls <directory> where <directory> is /home/linux/ieng6/cs15lwi22/cs15lwi22abc`, where the `abc` is one of the other group members’ username
+```ls <directory> where <directory> is /home/linux/ieng6/cs15lwi22/cs15lwi22abc```, where the `abc` is one of the other group members’ username
 
-`cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/`
+```cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/```
 
-`cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
+```cat /home/linux/ieng6/cs15lwi22/public/hello.txt```
 
 ![](SS3.png)
 
@@ -61,7 +61,7 @@ Try some more commands:
 Now lets move files from your local machine to the remote server.
 
 Create a file on your local machine and then type
- `scp <filename> cs15lwi22zz@ieng6.ucsd.edu:~/`
+```scp <filename> cs15lwi22zz@ieng6.ucsd.edu:~/```
   in the terminal from your local machine.
 
 ![](SS4.png)
@@ -118,11 +118,11 @@ Here are some tips to help you better use this interface.
 
 * You can write a command in quotes at the end of an ssh command to directly run it on the remote server, then exit. For example, this command will log in and list the home directory on the remote server:
 
-`$ ssh cs15lwi22@ieng6.ucsd.edu "ls"`
+```$ ssh cs15lwi22@ieng6.ucsd.edu "ls"```
 
 * You can use semicolons to run multiple commands on the same line in most terminals. For example, try:
 
-`$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
+```$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI```
 
 * You can use the up-arrow on your keyboard to recall the last command that was run
 
