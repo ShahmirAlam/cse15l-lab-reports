@@ -15,7 +15,9 @@ After installation it should look like this.
 
 Next up, you will need to look up your account info [here.](https://sdacs.ucsd.edu/~icc/index.php) Then you will need to open a new terminal through the "terminal menu". Now type in the following command in the terminal using YOUR account info:
 
-```ssh cs15lwi22zz@ieng6.ucsd.edu```
+```
+ssh cs15lwi22zz@ieng6.ucsd.edu
+```
 
 Type in __yes__ to proceed.
 
