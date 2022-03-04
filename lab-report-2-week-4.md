@@ -6,7 +6,7 @@ Testing and Debugging.
 
 ![](change1.png)
 
-- [Test file with failure-inducing input 1](https://github.com/lessjiu/markdown-parse/blob/main/case1.md)
+- [Test file with failure-inducing input 1](https://github.com/ShahmirAlam/cse15l-lab-reports/blob/main/case1.md)
 - Symptom/Output:
 ![](symptom1.png)
 - Expected Output: `[]` 
@@ -20,10 +20,10 @@ it did not check whether or not the input had a `[`, `]`, `(` and `)`.
 
 ![](change2.png)
 
-- [Test file with failure-inducing input 2](https://github.com/lessjiu/markdown-parse/blob/main/case2.md)
+- [Test file with failure-inducing input 2](https://github.com/ShahmirAlam/cse15l-lab-reports/blob/main/case2.md)
 - Symptom/Output:
 ![](symptom2.png)
-- Expected: `[]` 
+- Expected Output: `[]` 
 
 The failure inducing input was a file with an image linked and an incorrectly 
 formatted link that had text between the `]` and `(`. The symptom was that the 
@@ -36,10 +36,10 @@ didn't check whether the `]` and `(` were right next to each other.
 
 ![](change3.png)
 
-- [Test file with failure-inducing input 3](https://github.com/lessjiu/markdown-parse/blob/main/case3.md)
+- [Test file with failure-inducing input 3](https://github.com/ShahmirAlam/cse15l-lab-reports/blob/main/case3.md)
 - Symptom/Output:
 ![](symptom3.png)
-- Expected: `[www.canvas.com]`
+- Expected Output: `[www.canvas.com]`
 
 The failure inducing input was a file with a correctly formatted link that had an 
 extra `]` somewhere in between the `[` and `]`. The symptom was that the output did not
