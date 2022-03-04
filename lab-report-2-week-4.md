@@ -1,7 +1,9 @@
 # Week # 2 - Lab Report
-### Testing and Debugging
 
-**Code Change 1**
+Testing and Debugging.
+
+## Code Change # 1
+
 ![](change1.png)
 
 - [Test file with failure-inducing input 1](https://github.com/lessjiu/markdown-parse/blob/main/case1.md)
@@ -14,7 +16,7 @@ that was missing a `]`. The symptom was that the output still included the
 incorrectly formatted link. This was caused by a bug in the original code, as 
 it did not check whether or not the input had a `[`, `]`, `(` and `)`.
 
-**Code Change 2**
+## Code Change # 2
 
 ![](change2.png)
 
@@ -30,7 +32,7 @@ caused by a bug in the original code, as it did not check whether there was a
 `!` before the `(` which would mean it was actually an image link. Also, the code
 didn't check whether the `]` and `(` were right next to each other. 
 
-**Code Change 3**
+## Code Change # 3
 
 ![](change3.png)
 
