@@ -13,8 +13,7 @@ Testing and Debugging.
 
 The failure inducing input was a file with a incorrectly formatted link 
 that was missing a `]`. The symptom was that the output still included the 
-incorrectly formatted link. This was caused by a bug in the original code, as 
-it did not check whether or not the input had a `[`, `]`, `(` and `)`.
+incorrectly formatted link. This was because our code did not check whether or not the testfile had a `[`, `]`, `(` and `)`.
 
 ## Code Change # 2
 
@@ -25,12 +24,7 @@ it did not check whether or not the input had a `[`, `]`, `(` and `)`.
 ![](symptom2.png)
 - Expected Output: `[]` 
 
-The failure inducing input was a file with an image linked and an incorrectly 
-formatted link that had text between the `]` and `(`. The symptom was that the 
-output still included the image link and the incorrectly formatted link. This was 
-caused by a bug in the original code, as it did not check whether there was a 
-`!` before the `(` which would mean it was actually an image link. Also, the code
-didn't check whether the `]` and `(` were right next to each other. 
+The failure inducing input was a file with an image linked and an incorrectly formatted link that had text between the `]` and `(`. The symptom was that the output still included the image link and the incorrectly formatted link. This was because our code did not check whether there was a `!` before the `(` which would mean it was actually an image link. Also, the code didn't check whether the `]` and `(` were right next to each other. 
 
 ## Code Change # 3
 
@@ -41,7 +35,4 @@ didn't check whether the `]` and `(` were right next to each other.
 ![](symptom3.png)
 - Expected Output: `[www.canvas.com]`
 
-The failure inducing input was a file with a correctly formatted link that had an 
-extra `]` somewhere in between the `[` and `]`. The symptom was that the output did not
-have a link. This was caused by a bug in the original code, as it did not account for 
-checking if there were extra `]` in between the `[` and `]`.
+The failure inducing input was a file with a correctly formatted link that had an extra `]` somewhere in between the `[` and `]`. The symptom was that the output did not have a link. This was because our code did not account for checking if there were extra `]` in between the `[` and `]`.
