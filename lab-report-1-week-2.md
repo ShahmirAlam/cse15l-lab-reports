@@ -1,4 +1,4 @@
-# Week # 2 - Lab Report
+# Week 2 - Lab Report 1
 
 This a tutorial for incoming 15L students about how to log into a course-specific account on ieng6.
 
