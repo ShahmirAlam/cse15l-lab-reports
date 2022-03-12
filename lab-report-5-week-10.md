@@ -1,6 +1,6 @@
 # Week 19 - Lab Report 5
 
-## Way to Find Tests with Different Results
+## Way to Find Tests with Different Results.
 
 We use the code we wrote in Lab 9:
 ![image](sh.png)
@@ -26,11 +26,11 @@ Test 567:
 ```
 - My output: `[not a link]`
 - Joe's output : `[]`
-- Expect output: `[]`
+- Expected output: `[]`
 
-My implementation was wrong because my markdown doesn't consider spaces between the parenthesis. I should first use the method .trim and them check if there are any spaces between the openParen and closeParen.
+My implementation is wrong because it doesn't consider spaces between the parenthesis. I should first use the method .trim and then check if there are any spaces between the 'openParen' and 'closeParen'.
 
-Part of my code need to be changed:
+Part of code that needs change:
 ![image](revisepart.png)
 ## Sample Test 2
 Test 577:
@@ -39,9 +39,9 @@ Test 577:
 ```
 - My output: `[]`
 - Joe's output : `[train.jpg]`
-- Expect output: `[]`
+- Expected output: `[]`
 
-Joe's implementation was wrong because his markdown doesn't consider the difference between a link and an image through checking if there is a `!` before the link. He should use charAt to see if there is a `!` right before the open brasket.
+Joe's implementation is wrong because it doesn't consider the difference between a link and an image. We can use charAt to see if there is a `!` right before the open basket.
 
-Part of his code need to be changed:
-![image](revise2part.png)
+Part of code that needs change:
+![image](revisepart2.png)
