@@ -3,6 +3,7 @@
 ## Way to Find Tests with Different Results.
 
 We use the code we wrote in Lab 9:
+
 ![image](sh.png)
 
 Then we store the result in a file named "results.txt" for both our implementation and Joe's implementation. We use the command:
@@ -14,6 +15,7 @@ We then use `diff` to find the different between the two outputs.
 `diff markdown-parse/results.txt joemarkdown/markdown-parse/results.txt`
 
 We see the results:
+
 ![image](results.png)
 
 ## Sample Test 1
@@ -32,6 +34,7 @@ My implementation is wrong because it doesn't consider spaces between the parent
 
 Part of code that needs change:
 ![image](revisepart.png)
+
 ## Sample Test 2
 Test 577:
 ```
