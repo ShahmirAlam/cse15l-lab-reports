@@ -30,4 +30,4 @@ I then used `ssh ieng6` to get access my remote server.
 
 ![](step4.png)
 
-In the last step, used the `scp` command to copy a from my local machine to my remote server. I confimed the copy was successfully sent. 
+In the last step, used the `scp` command to copy a file from my local machine to my remote server. I confimed the copy was successfully sent. 
