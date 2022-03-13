@@ -12,6 +12,7 @@ The Expect Output:
 I created `snippet1.md` and created a test method in `MarkdownParseTest` like this:
 
 ![snippet 1](testsnippet1.png)
+
 Result of My Code:
 ```
 l) testSnippetl(MarkdownParseTest)
@@ -39,9 +40,10 @@ The Expect Output:
 ```
 [a.com, a.com(()), example.com]
 ```
-I created `snippet3.md` and created a test method in `MarkdownParseTest` like this:
+I created `snippet2.md` and created a test method in `MarkdownParseTest` like this:
 
 ![snippet 2](testsnippet2.png)
+
 Result of My Code:
 ```
 2) testSnippet2(MarkdownParseTest)
@@ -71,6 +73,7 @@ The Expect Output:
 I created `snippet3.md` and created a test method in `MarkdownParseTest` like this:
 
 ![snippet 3](testsnippet3.png)
+
 Result of My Code:
 ```
 3) testSnippet3(MarkdownParseTeJt)
