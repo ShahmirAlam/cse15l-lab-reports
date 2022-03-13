@@ -19,7 +19,7 @@ We see the results:
 ![image](results.png)
 
 ## Sample Test 1
-Test 567:
+Test# 567:
 ```
 [foo](not a link)
 
@@ -36,7 +36,7 @@ Part of code that needs change:
 ![image](revisepart.png)
 
 ## Sample Test 2
-Test 577:
+Test# 577:
 ```
 ![foo](train.jpg)
 ```
